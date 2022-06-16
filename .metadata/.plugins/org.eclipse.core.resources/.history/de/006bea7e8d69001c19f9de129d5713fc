@@ -1,0 +1,35 @@
+package pobj.emu.memory;
+
+import java.util.*;
+
+public class AddressDecoderr implements IMemory {
+	private int size;
+	private List<MemorySlot> liste;
+	public AddressDecoderr(int size) {
+		this.size=size;
+		liste = new ArrayList<>();
+	}
+	public void add(MemorySlot m) {
+		liste.add(m);
+	}
+	public void remove(MemorySlot m) {
+		liste.remove(m);
+	}
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return size;
+	}
+	@Override
+	public int read(int addr) {
+		// TODO Auto-generated method stub
+		return liste.get(addr);
+	}
+	@Override
+	public void write(int addr, int value) {
+		// TODO Auto-generated method stub
+		liste.get(addr).write(addr,value);
+	}
+	
+
+}

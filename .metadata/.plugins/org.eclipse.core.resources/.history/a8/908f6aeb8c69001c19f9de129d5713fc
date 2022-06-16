@@ -1,0 +1,20 @@
+package pobj.emu.memory;
+
+import java.util.*;
+
+public class AddressDecoderr {
+	private int size;
+	private List<MemorySlot> liste;
+	public AddressDecoderr(int size) {
+		this.size=size;
+		liste = new ArrayList<>();
+	}
+	public void add(MemorySlot m) {
+		liste.add(m);
+	}
+	public void remove(MemorySlot m) {
+		liste.remove(m);
+	}
+	
+
+}

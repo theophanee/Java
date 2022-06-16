@@ -1,0 +1,9 @@
+
+public interface IUnite {
+
+	ICarte getCarte();
+	String getID();
+	IJoueur getProprietaire();
+	ICase getPosition();
+	void setPosition(ICase c);
+}

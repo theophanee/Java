@@ -1,0 +1,7 @@
+package pobj.tme6;
+
+public class ContextTurtle implements IColorTurtle {
+
+	
+
+}

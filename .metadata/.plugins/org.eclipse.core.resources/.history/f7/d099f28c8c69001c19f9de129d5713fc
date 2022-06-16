@@ -1,0 +1,10 @@
+package pobj.emu.memory;
+
+public class AddressDecoderr {
+	private int size;
+	public AddressDecoderr(int size) {
+		this.size=size;
+	}
+	
+
+}

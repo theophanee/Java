@@ -1,0 +1,30 @@
+package pobj.emu.memory;
+
+public class RAM implements IMemory{
+
+	private int[] tab;
+	
+	public RAM(int size,int init) {
+		tab = new int[size];
+		for(int i=0;i<size;i++)
+			tab[i]=init;
+	}
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public int read(int addr) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void write(int addr, int value) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

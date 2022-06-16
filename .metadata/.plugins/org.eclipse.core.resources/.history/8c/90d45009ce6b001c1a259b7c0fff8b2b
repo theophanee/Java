@@ -1,0 +1,9 @@
+package exam;
+
+import java.util.*;
+
+public class NeuronBuilder {
+
+	private Map<INode,Double> pred = new HashMap<>();
+	
+}

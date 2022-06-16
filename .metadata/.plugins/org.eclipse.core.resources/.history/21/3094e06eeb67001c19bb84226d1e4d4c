@@ -1,0 +1,10 @@
+package pobj.micros.fs;
+
+public class FileNode extends Node implements IFileNode{
+
+	public FileNode(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

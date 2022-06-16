@@ -1,0 +1,9 @@
+import java.util.List;
+
+public interface ICarte {
+
+	ICase get(int x,int y);
+	int getMaxX();
+	int getMaxY();
+	List<ICase> bestPath(ICase fom,ICase to);
+}

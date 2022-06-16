@@ -1,0 +1,8 @@
+
+public class Word {
+
+	private ICell[][] tab;
+	public Word(int width, int height) {
+		tab = new ICell[width][height];
+	}
+}

@@ -1,0 +1,7 @@
+package exam;
+
+public class NeuronBuilder {
+
+	private Map<double,INode> pred = new HashMap<>();
+	
+}

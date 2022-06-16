@@ -1,0 +1,6 @@
+INDEX VERSION 1.131+C:\Users\clari\Desktop\Theophane\L3\Java\.metadata\.plugins\org.eclipse.jdt.core
+138036799.index
+2617249570.index
+3342142219.index
+2778261348.index
+574532621.index

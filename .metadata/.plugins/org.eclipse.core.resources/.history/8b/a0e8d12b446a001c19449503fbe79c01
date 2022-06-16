@@ -1,0 +1,12 @@
+package pobj.tme6;
+
+public class CommandSetColor implements ICommand {
+
+	private Color color;
+	@Override
+	public void execute(IColorTurtle turtle) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

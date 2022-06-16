@@ -1,0 +1,11 @@
+package pobj.micros.fs;
+
+public class Node implements INode {
+
+	@Override
+	public String getName() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

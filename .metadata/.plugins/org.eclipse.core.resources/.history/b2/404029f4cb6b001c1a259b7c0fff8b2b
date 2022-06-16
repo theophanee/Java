@@ -1,0 +1,11 @@
+package exam;
+
+public class Input extends AbstractNode{
+
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

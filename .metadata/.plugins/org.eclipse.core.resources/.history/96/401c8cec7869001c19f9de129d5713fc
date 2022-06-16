@@ -1,0 +1,18 @@
+
+import java.util.*;
+
+public class Main {
+
+	public static void main(String[] args) {
+		List<String> liste = new ArrayList<>();
+		liste.add("1");
+		liste.add("2");
+		liste.add("3");
+		liste.add("4");
+		
+		Iterator<String> it = liste.iterator();
+		
+		while(it.hasNext())
+			it = it.next();
+	}
+}

@@ -1,0 +1,35 @@
+package pobj.micros.fs;
+
+public class FileStream implements IStream{
+
+	
+	private IFileNode n;
+
+	public FileStream(IFileNode n) {
+		this.n=n;
+	}
+	@Override
+	public int read() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void write(int c) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void seek(int pos) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public int tell() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

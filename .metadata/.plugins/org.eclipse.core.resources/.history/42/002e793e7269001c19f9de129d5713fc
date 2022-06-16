@@ -1,0 +1,10 @@
+
+public interface ICase {
+
+	int getX();
+	int getY();
+	IUnite getOccupant();
+	void setOccupant(IUnite u);
+	void removeOccupant();
+	Collection<Icase> getVoisins();
+}

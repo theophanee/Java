@@ -1,0 +1,36 @@
+package pobj.micros.fs;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+public class DirectoryNode extends Node implements IDirectoryNode {
+	
+	private Map<String,INode> dir;
+
+	public DirectoryNode(String name) {
+		super(name);
+		dir = new HashMap<String,INode>();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public boolean addChild(INode node) {
+		// TODO Auto-generated method stub
+		dir.put(node.getName(), node);
+		return false;
+	}
+
+	@Override
+	public INode getChild(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public List<String> getChildren() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package exam;
+
+public class EmptyMap<K, V> implements IMap<K,V>{
+
+}

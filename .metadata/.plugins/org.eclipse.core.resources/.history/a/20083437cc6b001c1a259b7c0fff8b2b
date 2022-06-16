@@ -1,0 +1,15 @@
+package exam;
+
+public class Neuron extends AbstractNode{
+
+	private INode[] nodes;
+	private double[] weights;
+	
+	
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package pobj.micros.scheduler;
+
+import pobj.micros.errors.OSError;
+
+public class TaskRunner {
+	
+	public static void run(IScheduler scheduler) throws OSError {
+		while(scheduler.execNext()) {
+			scheduler.execNext();
+		}
+	}
+
+}

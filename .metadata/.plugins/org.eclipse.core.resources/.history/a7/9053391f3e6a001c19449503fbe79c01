@@ -1,0 +1,38 @@
+package pobj.tme6;
+
+public class Turtle implements ITurtle{
+	
+	private int x,y;
+	private int angle;
+	private boolean is_up;
+	
+	public Turtle() {
+		x=0;y=0;angle=0;
+		is_up=false;
+	}
+
+	@Override
+	public void move(int length) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void turn(int angle) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void up() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void down() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package pobj.micros.fs;
+
+public class DirectoryNode extends Node implements IDirectoryNode {
+
+	public DirectoryNode(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

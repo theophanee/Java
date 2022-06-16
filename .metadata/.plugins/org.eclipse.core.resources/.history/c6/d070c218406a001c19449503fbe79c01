@@ -1,0 +1,17 @@
+package pobj.tme6;
+
+public class ColorTurtle extends Turtle implements IColorTurtle {
+
+	public ColorTurtle() {
+		super();
+	}
+	
+	
+	
+	@Override
+	public void setColor(Color color) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

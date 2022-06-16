@@ -1,0 +1,10 @@
+package pobj.emu.memory;
+
+public class ROM extends RAM{
+
+	public ROM(int data[]) {
+		super(data.length, data[0].copy());
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,8 @@
+
+public interface IJoueur {
+
+	String getNom();
+	void putUnite(IUnite unite);
+	IUnite removeUnite(String idUnite);
+	IUnite get(String id);
+}

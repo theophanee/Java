@@ -1,0 +1,10 @@
+package pobj.micros.scheduler;
+
+public class ExampleMain {
+
+	public static void main(String[] args) {
+		Scheduler s = new Scheduler(new FIFOStrategy());
+		ExampleTask e = new ExampleTask(3);
+		e.exec(s);
+	}
+}

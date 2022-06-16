@@ -1,0 +1,13 @@
+package pobj.micros.scheduler;
+
+import pobj.micros.errors.OSError;
+
+public class ExampleTask implements ITask {
+
+	@Override
+	public void exec(IScheduler ctx) throws OSError {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

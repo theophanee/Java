@@ -1,0 +1,31 @@
+package pobj.micros.fs;
+
+public class FileNode extends Node implements IFileNode {
+
+	private int size;
+	private byte[] data;
+	
+	public FileNode(String name,int size) {
+		super(name);this.size=size;
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return size;
+	}
+
+	@Override
+	public int read(int pos) {
+		// TODO Auto-generated method stub
+		return data[pos];
+	}
+
+	@Override
+	public void write(int pos, int c) {
+		// TODO Auto-generated method stub
+		data[pos]=c;
+	}
+
+}

@@ -1,0 +1,17 @@
+package exam;
+
+public class Neuron extends AbstractNode{
+
+	private INode[] nodes;
+	private double[] weights;
+	public Neuron(INode[] n , double[] w) {
+		if(w.length!=n.length || w.length==0 || n.length==0 )
+	}
+	
+	@Override
+	public void update() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

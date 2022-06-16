@@ -1,0 +1,31 @@
+package pobj.micros.scheduler;
+
+import pobj.micros.errors.OSError;
+
+public class Scheduler implements IScheduler {
+	
+	private IStrategy strategy;
+	
+	public Scheduler(IStrategy strategy) {
+		this.strategy = strategy;
+	}
+
+	@Override
+	public void setStrategy(IStrategy strategy) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void postTask(ITask task) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean execNext() throws OSError {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

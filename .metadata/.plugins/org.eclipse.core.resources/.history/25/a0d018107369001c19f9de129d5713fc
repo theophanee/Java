@@ -1,0 +1,38 @@
+import java.util.HashMap;
+import java.util.Map;
+
+public class Joueur implements IJoueur {
+
+	
+	private final String nom;
+	private Map<String,IUnite> map;
+
+	public Joueur(String nom) {
+		this.nom=nom;
+		map = new HashMap<String ,IUnite>();
+	}
+	@Override
+	public String getNom() {
+		// TODO Auto-generated method stub
+		return nom;
+	}
+
+	@Override
+	public void putUnite(IUnite unite) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public IUnite removeUnite(String idUnite) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public IUnite get(String id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

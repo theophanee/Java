@@ -1,0 +1,29 @@
+package exam;
+
+public class TreeMap<K, V> implements IMAP<K,V>{
+
+	@Override
+	public void put(K key, V val) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public V get(K key) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public boolean contains(K key) {
+		// TODO Auto-generated method stub
+		return contains(key);
+	}
+
+	@Override
+	public int size() {
+		// TODO Auto-generated method stub
+		return K.size()+V.size()+1;
+	}
+
+}

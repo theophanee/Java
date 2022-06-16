@@ -1,0 +1,36 @@
+package pobj.micros.scheduler;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import pobj.micros.errors.OSError;
+
+public class Scheduler implements IScheduler {
+	
+	private IStrategy strategy;
+	private List<ITask> liste;
+	
+	public Scheduler(IStrategy strategy) {
+		this.strategy = strategy;
+		liste = new ArrayList<>();
+	}
+
+	@Override
+	public void setStrategy(IStrategy strategy) {
+		// TODO Auto-generated method stub
+		this.strategy = strategy;
+	}
+
+	@Override
+	public void postTask(ITask task) {
+		// TODO Auto-generated method stub
+		liste.add(task);
+	}
+
+	@Override
+	public boolean execNext() throws OSError {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

@@ -1,0 +1,11 @@
+package pobj.micros.scheduler;
+
+public class TaskRunner {
+	
+	public static void run(IScheduler scheduler) {
+		while(scheduler.execNext()) {
+			scheduler.execNext();
+		}
+	}
+
+}

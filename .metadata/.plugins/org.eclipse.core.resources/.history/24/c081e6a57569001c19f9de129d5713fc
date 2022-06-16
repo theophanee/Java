@@ -1,0 +1,46 @@
+
+public class Unite implements IUnite{
+	
+	private ICarte carte;
+	private IJoueur proprietaire;
+	private ICase position;
+	private static int cpt = 0;
+	
+	public Unite(ICarte carte,IJoueur proprietaire,ICase position) {
+		this.carte=carte;
+		this.proprietaire=proprietaire;
+		this.position=position;
+		cpt++;
+	}
+
+	@Override
+	public ICarte getCarte() {
+		// TODO Auto-generated method stub
+		return carte;
+	}
+
+	@Override
+	public String getID() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public IJoueur getProprietaire() {
+		// TODO Auto-generated method stub
+		return proprietaire;
+	}
+
+	@Override
+	public ICase getPosition() {
+		// TODO Auto-generated method stub
+		return position;
+	}
+
+	@Override
+	public void setPosition(ICase c) {
+		// TODO Auto-generated method stub
+		position=c;
+	}
+
+}

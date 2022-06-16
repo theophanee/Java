@@ -1,0 +1,5 @@
+package pobj.tme6;
+
+public class IColorTurtle extends ITurtle{
+
+}

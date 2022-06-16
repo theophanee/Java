@@ -1,0 +1,33 @@
+
+public class Word {
+
+	private ICell[][] tab;
+	private final int width,height;
+	public Word(int width, int height) {
+		this.width=width;
+		this.height=height;
+		tab = new ICell[width][height];
+		for(int i=1;i<width-1;i++) {
+			for(int j=1;j<height-1;j++)
+				tab[i][j] = null;
+		}
+		
+	}
+	public ICell get(int x,int y) {
+		return tab[x][y];
+	}
+	public ICell set(int x,int y,ICell o) {
+		ICell res = get(x,y);
+		tab[x][y] = o;
+		return res;
+	}
+	
+	
+	
+	public int getWidth() {
+		return width;
+	}
+	public int getHeight() {
+		return height;
+	}
+}
